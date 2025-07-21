@@ -2,17 +2,17 @@ const Fetures = () => {
   return (
     <div className="w-full">
       <div className="container mx-auto p-5 h-screen">
-        <div className="flex overflow-x-auto gap-4 md:grid md:grid-cols-4 max-w-[700px] mx-auto">
-          <div className="min-w-[150px] min-h-[150px] bg-red-400 p-4 text-white rounded">
+        <div className="flex overflow-x-auto gap-4 mx-auto">
+          <div className="w-[300px] min-h-[150px] shrink-0 bg-red-200 p-4 text-white rounded">
             s
           </div>
-          <div className="min-w-[150px] min-h-[150px] bg-red-400 p-4 text-white rounded">
+          <div className="w-[300px] min-h-[150px] shrink-0 bg-green-200 p-4 text-white rounded">
             s
           </div>
-          <div className="min-w-[150px] min-h-[150px] bg-red-400 p-4 text-white rounded">
+          <div className="w-[300px] min-h-[150px] shrink-0 bg-violet-200 p-4 text-white rounded">
             s
           </div>
-          <div className="min-w-[150px] min-h-[150px] bg-red-400 p-4 text-white rounded">
+          <div className="w-[300px] min-h-[150px] shrink-0 bg-orange-200 p-4 text-white rounded">
             s
           </div>
         </div>

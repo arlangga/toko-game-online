@@ -8,10 +8,10 @@ import Img4 from "../assets/free-fire.jpg"
 
 const Hero = () => {
   return (
-    <div className="w-full relative bg-cover bg-center h-screen"style={{ backgroundImage: `url(${Img4})` }}>
-      <div className="absolute inset-0 bg-blue-600 bg-opacity-80"></div>
-      <div className="container mx-auto p-5 "
-      >
+    <div className="w-full relative bg-cover bg-center pb-10"style={{ backgroundImage: `url(${Img4})` }}>
+      <div className="absolute z-0 inset-0 bg-blue-600 bg-opacity-80"></div>
+
+      <div className="container mx-auto p-5 relative z-10">
         
         <div className="gap-4 flex overflow-x-auto lg:grid lg:grid-cols-4 pt-4">
 
@@ -61,7 +61,15 @@ const Hero = () => {
           </div>
 
         </div>
+
+        <div className="w-full justify-center flex pt-10">
+        <p className="text-white font-bold pr-2">Harga Murah</p>
+        <p className="text-white font-bold pr-2 pl-2 border-l-2 border-r-2">100% Aman</p>
+        <p className="text-white font-bold pl-2">Pelayanan 24/7</p>
       </div>
+      </div>
+
+      
     </div>
   );
 };
